@@ -1,0 +1,55 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    
+  }
+
+.slides {
+    position: relative;
+    height: 540px;
+    width: 960px;
+    padding: 0px;
+    margin: auto;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 1s;
+}
+
+.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+*/
+
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 5px;
+}

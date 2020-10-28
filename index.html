@@ -3,9 +3,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS slider</title>
+    <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
+    <ul id="slides" class="slides">
+        <li class="slide active" style="background-image: url(assets/img/city1.jpg);">Slide 1</li>
+        <li class="slide" style="background-image: url(assets/img/city2.jpg)">Slide 2</li>
+        <li class="slide" style="background-image: url(assets/img/city3.jpg)">Slide 3</li>
+        <li class="slide" style="background-image: url(assets/img/city4.jpg)">Slide 4</li>
+        <li class="slide" style="background-image: url(assets/img/city5.jpg)">Slide 5</li>
+    </ul>    
+    <button class="controls" id="pause">Pause</button>
+    <button class="controls" id="previous">Previous</button>
+    <button class="controls" id="next">Next</button>
 
     <script src="assets/js/main.js"></script>
 </body>
