@@ -172,7 +172,10 @@
     background-clip: padding-box;
   }
   
-  .indicator:hover {
+  .indicator:hover,
+  .control-next:hover,
+  .control-pause:hover,
+  .control-prev:hover {
     cursor: pointer;
   }
   
