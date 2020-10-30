@@ -95,9 +95,9 @@
         prevBtn.addEventListener('click', prev);
         nextBtn.addEventListener('click', next);
         indicatorsContainer.addEventListener('click', indicate);
-        container.addEventListener('click', swipeStart);
-        container.addEventListener('click', swipeEnd);
-        document.addEventListener('click', pressKey);
+        container.addEventListener('touchstart', swipeStart);
+        container.addEventListener('touchend', swipeEnd);
+        document.addEventListener('keydown', pressKey);
         
     }
 
